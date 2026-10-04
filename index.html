@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Masum Creative AI — UGC Creator Portfolio</title>
+<meta name="description" content="Masum Islam — UGC videos, product content and short-form ads. Based in Bangladesh, available worldwide.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F1EEFF;--ink:#1B1F3B;--muted:#585C7A;--card:#FFFFFF;
+  --pink:#FF4F86;--sun:#FFC933;--mint:#2FD1A0;--line:#D9D3F5;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14152B;--ink:#F3F1FF;--muted:#A6A9C8;--card:#1F2142;--line:#34376A}}
+:root[data-theme="dark"]{--bg:#14152B;--ink:#F3F1FF;--muted:#A6A9C8;--card:#1F2142;--line:#34376A}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--pink);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+
+/* hero */
+.hero{padding:44px 0 72px;overflow:hidden}
+.brand{font-weight:800;font-size:1rem;letter-spacing:.01em;display:flex;align-items:center;gap:10px}
+.dot{width:14px;height:14px;border-radius:50%;background:var(--pink);box-shadow:10px 0 0 var(--sun),20px 0 0 var(--mint);margin-right:20px}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center;margin-top:48px}
+h1{font-size:clamp(3rem,9vw,6.6rem);line-height:.92;margin:0;font-weight:800;letter-spacing:-.035em}
+h1 span{display:block}
+.tag{margin:22px 0 0;font-size:1.2rem;color:var(--muted);max-width:30ch}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.btn{display:inline-block;padding:14px 22px;border-radius:999px;font-weight:600;text-decoration:none;border:2px solid var(--ink);transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.main{background:var(--pink);border-color:var(--pink);color:#fff}
+.avail{display:inline-flex;align-items:center;gap:8px;margin-top:26px;font-size:.95rem;color:var(--muted)}
+.avail i{width:10px;height:10px;border-radius:50%;background:var(--mint);animation:pulse 2s infinite}
+@keyframes pulse{50%{opacity:.35}}
